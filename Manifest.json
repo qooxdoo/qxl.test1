@@ -6,7 +6,7 @@
     "homepage": "http://www.qooxdoo.org",
     "license": "MIT license",
     "authors": [],
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "provides": {
     "namespace": "qxl.test1",
