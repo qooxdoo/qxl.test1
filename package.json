@@ -1,6 +1,6 @@
 {
   "name": "@qooxdoo/qxl.test1",
-  "version": "1.4.1-beta.1",
+  "version": "1.4.1",
   "publishConfig": {
     "access": "public"
   },
