@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - latest
+      - 1.x.x
 jobs:
   release:
     name: Release
