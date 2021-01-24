@@ -18,7 +18,6 @@ qx.Class.define("qxl.test1.Application",
   extend : qx.application.Standalone,
 
 
-
   /*
   *****************************************************************************
      MEMBERS
