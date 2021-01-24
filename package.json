@@ -1,6 +1,9 @@
 {
   "name": "@qooxdoo/qxl.test1",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Test Module, used for experimenting with semantic releases and npm",
   "main": "index.js",
   "scripts": {

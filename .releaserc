@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/git", {
+      "assets": ["dist/**/*.{js,css}", "docs", "package.json"],
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }]
+  ],
+  "branches": [
+    {
+      "name": "master",
+      "channel": "beta",
+      "prerelease": "beta"
+    },
+    {
+      "name": "1.x.x",
+      "range": "1.x.x",
+      "channel": "1.x.x"
+    }
+  ]
+  
+}
