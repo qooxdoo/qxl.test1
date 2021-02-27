@@ -1,8 +1,0 @@
-{
-  "libraries": [
-    {
-      "path": "."
-    }
-  ],
-  "$schema": "https://raw.githubusercontent.com/qooxdoo/qooxdoo-compiler/master/resource/schema/v1/qooxdoo.json"
-}
